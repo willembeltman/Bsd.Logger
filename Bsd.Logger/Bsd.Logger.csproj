@@ -11,7 +11,7 @@
     <Description>A lightweight logger I use to avoid cross-project references. The interface may change without warning. Use it, don't use it — I don't care. Use at your own risk.</Description>
     <Copyright>2025, The Hague, The Netherlands, Beltman Software Design, Willem-Jan Beltman</Copyright>
     <PackageProjectUrl>https://github.com/willembeltman/Bsd.Logger</PackageProjectUrl>
-    <PackageReadmeFile></PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/willembeltman/Bsd.Logger</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>A lightweight logger I use to avoid cross-project references. The interface may change without warning. Use it, don't use it — I don't care. Use at your own risk.</PackageReleaseNotes>
@@ -22,6 +22,10 @@
 
   <ItemGroup>
     <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
